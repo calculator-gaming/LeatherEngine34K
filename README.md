@@ -1,4 +1,12 @@
-# Leather Engine
+# Leather Engine 34K
+
+This is a mod which adds more keys to Leather Engine. 34 keys in total, to be exact, excluding "extra" and "extra2" which are unused.
+
+> [!WARNING]
+> XML is not configured for special notes or noteskins other than default!
+
+Note: This mod was mostly made for myself. I probably won't fix an issue if it doesn't affect me, but if someone show's interest i'll try my best
+That's all, below is the original description for Leather Engine
 
 > [!WARNING]
 > This fork is DEPRECATED and will no longer be maintained.
