@@ -21,7 +21,7 @@ class NoteColors {
 		"rleft2" => [255, 131, 0],
 		"rdown2" => [0, 120, 118],
 		"rup2" => [66, 100, 253],
-		"rright2" => [130, 255, 174]
+		"rright2" => [130, 255, 174],
 		"tleft" => [255, 200, 1],
 		"tdown" => [255, 135, 137],
 		"tup" => [255, 0, 255],
@@ -61,4 +61,5 @@ class NoteColors {
 			Options.setData(defaultColors, "arrowColors", "arrowColors");
 	}
 }
+
 
