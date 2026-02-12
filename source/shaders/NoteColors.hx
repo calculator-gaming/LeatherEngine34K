@@ -37,8 +37,8 @@ class NoteColors {
 		"gleft2" => [135, 163, 173], //same as the strum color lol
 		"gdown2" => [255, 0, 68],
 		"gup2" => [0, 255, 221],
-		"gright2" => [207, 114, 21]
-		"extra" => [84, 84, 84] //Just in case someone wants to add another key without modding the code (you'll have to define your colors manually with the in-game editor though)
+		"gright2" => [207, 114, 21],
+		"extra" => [84, 84, 84], //Just in case someone wants to add another key without modding the code (you'll have to define your colors manually with the in-game editor though)
 		"extra2" => [200, 200, 200]
 	];
 
@@ -61,5 +61,6 @@ class NoteColors {
 			Options.setData(defaultColors, "arrowColors", "arrowColors");
 	}
 }
+
 
 
