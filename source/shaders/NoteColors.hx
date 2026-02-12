@@ -13,15 +13,33 @@ class NoteColors {
 		"down2" => [139, 74, 255],
 		"up2" => [255, 0, 0],
 		"right2" => [0, 51, 255],
-		"rleft" => [255, 0, 0],
-		"rdown" => [30, 255, 255],
-		"rup" => [0, 255, 33],
-		"rright" => [30, 41, 255],
-		"plus" => [175, 0, 158],
-		"rleft2" => [98, 0, 255],
-		"rdown2" => [169, 255, 30],
-		"rup2" => [255, 131, 0],
-		"rright2" => [30, 255, 105]
+		"rleft" => [79, 255, 128],
+		"rdown" => [137, 78, 8],
+		"rup" => [0, 171, 255],
+		"rright" => [125, 0, 181],
+		"plus" => [176, 0, 127],
+		"rleft2" => [255, 131, 0],
+		"rdown2" => [0, 120, 118],
+		"rup2" => [66, 100, 253],
+		"rright2" => [130, 255, 174]
+		"tleft" => [255, 200, 1],
+		"tdown" => [255, 135, 137],
+		"tup" => [255, 0, 255],
+		"tright" => [0, 163, 30],
+		"tleft2" => [176, 0, 0],
+		"tdown2" => [255, 255, 255],
+		"tup2" => [168, 111, 181],
+		"tright2" => [61, 180, 102],
+		"gleft" => [12, 52, 86],
+		"gdown" => [255, 162, 0],
+		"gup" => [237, 203, 169],
+		"gright" => [255, 0, 214],
+		"gleft2" => [135, 163, 173], //same as the strum color lol
+		"gdown2" => [255, 0, 68],
+		"gup2" => [0, 255, 221],
+		"gright2" => [207, 114, 21]
+		"extra" => [84, 84, 84] //Just in case someone wants to add another key without modding the code (you'll have to define your colors manually with the in-game editor though)
+		"extra2" => [200, 200, 200]
 	];
 
 	public static function setNoteColor(note:String, color:Array<Int>):Void {
@@ -43,3 +61,4 @@ class NoteColors {
 			Options.setData(defaultColors, "arrowColors", "arrowColors");
 	}
 }
+
